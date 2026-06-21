@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Mariana Felipe - UI/UX Designer</title>
+  <meta name="title" content="Mariana Felipe - UI/UX Designer">
+  <meta name="description" content="This is a personal portfolio html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="icon" href="./assets/images/favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/require.css">
+  <link rel="stylesheet" href="./assets/css/main.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" href="./assets/images/hero-banner.png">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preloader" data-preloader>
+    <div class="preloader-circle"></div>
+  </div>
+  
+  <div id="header-container"></div>
+  <script>
+  fetch('./header.html')
+    .then(res => res.text())
+    .then(html => {
+      document.getElementById('header-container').innerHTML = html;
+    });
+  </script>
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+<section class="section hero" aria-label="home">
+  <div class="container">
+
+    <div class="hero-content">
+
+      <p class="hero-subtitle">Olá, me chamo Mariana Felipe</p>
+
+      <h1 class="headline-lg">UI/UX Designer</h1>
+
+      <p class="hero-text body-md">
+        Design de interfaces com foco em clareza, acessibilidade e experiência do usuário.
+      </p>
+
+      <!-- SCROLL INDICATOR -->
+      <div class="scroll-arrow">
+        ↓
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- 
+        - #SKILLS
+      -->
+      <section class="client" aria-label="Trusted client">
+        <div class="container">
+          <h2 class="skills-title">
+          Ferramentas e conhecimentos que utilizo no dia a dia
+          </h2>
+
+          <ul class="slider">
+
+            <li class="slider-item">
+              <img src="./assets/images/figma.svg" width="130" height="40" alt="clients" class="w-100">
+                <span class="skill-name">Figma</span>
+
+            </li>
+
+            <li class="slider-item">
+              <img src="./assets/images/clickup.svg" width="130" height="40" alt="clients" class="w-100">
+                <span class="skill-name">ClickUp</span>
+
+            </li>
+
+            <li class="slider-item">
+              <img src="./assets/images/miro.svg" width="130" height="40" alt="clients" class="w-100">
+                <span class="skill-name">Miro</span>
+            </li>
+
+            <li class="slider-item">
+              <img src="./assets/images/html.svg" width="130" height="40" alt="clients" class="w-100">
+                <span class="skill-name">HTML5</span>
+
+            </li>
+
+            <li class="slider-item">
+              <img src="./assets/images/css.svg" width="130" height="40" alt="clients" class="w-100">
+                <span class="skill-name">CSS3</span>
+            </li>
+
+            <li class="slider-item">
+              <img src="./assets/images/js.svg" width="130" height="40" alt="clients" class="w-100">
+                <span class="skill-name">JavaScript</span>
+            </li>
+
+            <li class="slider-item">
+              <img src="./assets/images/react.svg" width="130" height="40" alt="clients" class="w-100">
+                <span class="skill-name">React</span>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" aria-label="about me">
+        <div class="container">
+          
+          <div class="about-content">
+
+            <h2 class="title-lg">Sobre Mim</h2>
+
+            <p class="body-md section-text">
+              Tenho quase 1 ano de experiência em UX/UI Design, trabalhando em projetos colaborativos de P&D, pesquisa e desenvolvimento de produtos digitais. Minha trajetória também inclui produção científica voltada a práticas ágeis e projetos acadêmicos que reforçaram minha paixão por criar experiências úteis e centradas nas pessoas. Estou sempre em busca de aprender, evoluir e gerar impacto através do design.
+            </p>
+
+            <div class="wrapper">
+              <a href="./contato.html" class="btn btn-primary">Entre em Contato</a>
+
+              <a href="./projetos.html" class="btn btn-secondary">Projetos</a>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+<div id="footer-container"></div>
+
+<script>
+fetch('./footer.html')
+  .then(res => res.text())
+  .then(html => {
+    document.getElementById('footer-container').innerHTML = html;
+  });
+</script>
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

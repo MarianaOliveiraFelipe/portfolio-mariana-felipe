@@ -1,0 +1,64 @@
+:root {
+  --dark-blue: #232041;
+  --primary-blue: #4D89F9;
+  --light-blue: #88AFD1;
+  --orange: #D94521;
+  --sand: #E2BA81;
+  --white: #ffffff;
+}
+
+.btn {
+  background-color: var(--primary-blue);
+  font-size: var(--fs-14);
+  font-weight: var(--fw-500);
+  text-transform: uppercase;
+  max-width: max-content;
+  letter-spacing: 2px;
+  padding: 10px 22px;
+  color: var(--white);
+
+  box-shadow: 6px 6px 0 -1px var(--shadow-color, var(--dark-blue));
+  transition: var(--transition-1);
+}
+
+.btn:is(:hover, :focus-visible) {
+  background-color: var(--hover-bg, var(--dark-blue));
+  box-shadow: 5px 5px 0 -2px var(--hover-shadow-color, var(--primary-blue));
+}
+
+.btn-primary,
+.btn-secondary {
+  color: var(--white);
+}
+
+/* Botão principal */
+.btn-primary {
+  background-color: var(--primary-blue);
+
+  --shadow-color: var(--dark-blue);
+  --hover-bg: var(--dark-blue);
+  --hover-shadow-color: var(--primary-blue);
+}
+
+/* Botão secundário */
+.btn-secondary {
+  background-color: var(--dark-blue);
+
+  --shadow-color: var(--primary-blue);
+  --hover-bg: var(--primary-blue);
+  --hover-shadow-color: var(--dark-blue);
+}
+
+/* Botão terciário */
+.btn-tertiary {
+  color: var(--dark-blue);
+  background-color: var(--sand);
+
+  --shadow-color: var(--orange);
+  --hover-bg: var(--orange);
+  --hover-shadow-color: var(--sand);
+}
+
+.btn-tertiary:is(:hover, :focus-visible) {
+  color: var(--white);
+}

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title> Mariana Felipe | Portfolio</title>
+  <meta name="title" content="Mariana Felipe | Portfolio">
+  <meta name="description" content="This is a personal portfolio html template made by codewithsadee">
+
+   <!-- 
+    - favicon
+  -->
+  <link rel="icon" href="./assets/images/favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/require.css">
+  <link rel="stylesheet" href="./assets/css/pages/projetos.css">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preloader" data-preloader>
+    <div class="preloader-circle"></div>
+  </div>
+
+  <div id="header-container"></div>
+  <script>
+  fetch('./header.html')
+    .then(res => res.text())
+    .then(html => {
+      document.getElementById('header-container').innerHTML = html;
+    });
+  </script>
+  
+  <main>
+    <article>
+
+      <!-- 
+        - #PORTFOLIO
+      -->
+
+      <section class="section portfolio" aria-labelledby="portfolio-label">
+        <div class="container">
+
+          <h2 class="section-title headline-md text-center" id="portfolio-label">Projetos</h2>
+
+          <ul class="portfolio-list">
+
+            <li>
+              <div class="portfolio-card">
+
+                <div class="card-banner img-holder" style="--width: 800; --height: 540;">
+                  <img src="./assets/images/hobee.png" width="800" height="540" loading="lazy"
+                    alt="Protótipo de alta fidelidade da rede social Hobee" class="img-cover">
+
+                  <a href="https://www.figma.com/proto/5bhZt2qty8gHO6nTuSA4xU/Ux?node-id=56-88&t=NdoLipp6PwIz7k94-0&scaling=scale-down&content-scaling=fixed&page-id=22%3A143&starting-point-node-id=56%3A88"
+class="btn-icon" aria-label="More about Website Design for Marketing Agency Startup">
+                    <ion-icon name="arrow-forward-sharp" aria-hidden="true"></ion-icon>
+                  </a>
+                </div>
+
+                <div class="card-content">
+
+                  <span class="chip label-md">PROTÓTIPO DE ALTA FIDELIDADE</span>
+
+                  <h3 class="title-md">Hobee - Proposta de uma rede social desenvolvida na disciplina de User Experience</h3>
+
+                  <p class="card-text">
+                    Hobee é um protótipo mobile de alta fidelidade desenvolvido na disciplina de User Experience. O projeto propõe uma rede social voltada à criação de comunidades de hobbies, conectando pessoas por interesses em comum. Durante o processo, foram aplicadas pesquisas, questionários, storyboard, moodboard, roadmap, blueprint e testes de usabilidade com mais de 10 participantes para validar a solução.
+                  </p>
+
+                  <a href="https://www.figma.com/proto/5bhZt2qty8gHO6nTuSA4xU/Ux?node-id=56-88&t=NdoLipp6PwIz7k94-0&scaling=scale-down&content-scaling=fixed&page-id=22%3A143&starting-point-node-id=56%3A88" class="btn btn-primary">Visualizar Projeto</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="portfolio-card">
+
+                <div class="card-banner img-holder" style="--width: 800; --height: 540;">
+                  <img src="./assets/images/avitta.png" width="800" height="540" loading="lazy"
+                    alt="Protótipo de alta fidelidade do app Avitta" class="img-cover">
+
+                  <a href="https://www.figma.com/proto/r4TsuulNG6HalRHvgjSi6L/squad-6---Co.Lab?node-id=314-2604&starting-point-node-id=314%3A2369&t=tPfPHEL7D4rrAM9j-1" class="btn-icon" aria-label="More about Website Design for Marketing Agency Startup">
+                    <ion-icon name="arrow-forward-sharp" aria-hidden="true"></ion-icon>
+                  </a>
+                </div>
+
+                <div class="card-content">
+
+                  <span class="chip label-md">Protótipo de Alta Fidelidade</span>
+
+                  <h3 class="title-md">Avitta - Uma proposta de app para a telemedicina</h3>
+
+                  <p class="card-text">
+                    Avitta é um protótipo mobile de telemedicina desenvolvido para otimizar o atendimento online entre pacientes e profissionais de saúde. O projeto envolveu pesquisa exploratória, entrevistas com usuários de plataformas semelhantes, análise e síntese de dados, mapeamento de temas, definição e priorização de requisitos, modelagem de fluxos de tarefas e prototipação de alta fidelidade para validar a solução proposta.
+
+                  </p>
+
+                  <a href="https://www.figma.com/proto/r4TsuulNG6HalRHvgjSi6L/squad-6---Co.Lab?node-id=314-2604&starting-point-node-id=314%3A2369&t=tPfPHEL7D4rrAM9j-1" class="btn btn-primary">Visualizar Projeto</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="portfolio-card">
+
+                <div class="card-banner img-holder" style="--width: 800; --height: 540;">
+                  <img src="./assets/images/mei.png" width="800" height="540" loading="lazy"
+                    alt="Protótipo de alta fidelidade do app SimplificaMEI" class="img-cover">
+
+                  <a href="https://www.figma.com/proto/3YQo4loscI5ifsA4SqZB85/SimplificaMEI?node-id=11-820&p=f&t=Qjn7Uldn9PEILZn4-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=11%3A820" class="btn-icon" aria-label="More about Website Design for Marketing Agency Startup">
+                    <ion-icon name="arrow-forward-sharp" aria-hidden="true"></ion-icon>
+                  </a>
+                </div>
+
+                <div class="card-content">
+
+                  <span class="chip label-md">Protótipo de Alta Fidelidade</span>
+
+                  <h3 class="title-md">SimplificaMEI - Uma proposta de app para o mercado de microempreendedores</h3>
+
+                  <p class="card-text">
+                    SimplificaMEI é uma proposta de aplicativo mobile desenvolvida na disciplina de Empreendedorismo para auxiliar microempreendedores na emissão de notas fiscais e no acompanhamento de suas atividades pelo celular. O projeto envolveu a definição do modelo de negócio, identificação de oportunidades, estruturação da equipe e prototipação da solução, com foco em simplificar a gestão do dia a dia do MEI.
+                  </p>
+
+                  <a href="https://www.figma.com/proto/3YQo4loscI5ifsA4SqZB85/SimplificaMEI?node-id=11-820&p=f&t=Qjn7Uldn9PEILZn4-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=11%3A820" class="btn btn-primary">Visualizar Projeto</a>
+
+                </div>
+
+              </div>
+            </li>
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+<div id="footer-container"></div>
+
+<script>
+fetch('./footer.html')
+  .then(res => res.text())
+  .then(html => {
+    document.getElementById('footer-container').innerHTML = html;
+  });
+</script>
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

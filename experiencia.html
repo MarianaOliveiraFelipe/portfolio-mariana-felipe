@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Mariana | Serviços</title>
+  <meta name="title" content="Mariana | Serviços">
+  <meta name="description" content="This is a personal portfolio html template made by codewithsadee">
+
+   <!-- 
+    - favicon
+  -->
+  <link rel="icon" href="./assets/images/favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/require.css">
+  <link rel="stylesheet" href="./assets/css/pages/experiencia.css">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preloader" data-preloader>
+    <div class="preloader-circle"></div>
+  </div>
+
+  <div id="header-container"></div>
+  <script>
+  fetch('./header.html')
+    .then(res => res.text())
+    .then(html => {
+      document.getElementById('header-container').innerHTML = html;
+    });
+  </script>
+
+  <main>
+    <article>
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service has-bg-image" aria-labelledby="service-label"
+        style="background-image: url('./assets/images/service-bg.png')">
+        <div class="container">
+
+          <h2 class="section-title headline-md text-center" id="service-label">Minhas Experiências</h2>
+
+          <ul class="service-list">
+
+  <li class="card-container">
+    <div class="card card-md" style="background-color: hsl(177, 39%, 72%)">
+
+      <div class="card-media">
+        <ion-icon name="color-palette-outline" aria-hidden="true"></ion-icon>
+      </div>
+
+      <div>
+        <h3 class="card-title title-sm">Pesquisa em UI/UX</h3>
+
+        <p class="body-sm">
+          GREat · 2026 - Atual<br>
+          Desenvolvimento de fluxos web e mobile, testes de usabilidade,
+          documentação de UX, definição de perfis de usuário e apoio à
+          evolução do Design System em equipe multidisciplinar.
+        </p>
+      </div>
+
+    </div>
+  </li>
+
+  <li class="card-container">
+    <div class="card card-md" style="background-color: hsl(41, 99%, 64%)">
+
+      <div class="card-media">
+        <ion-icon name="briefcase-outline" aria-hidden="true"></ion-icon>
+      </div>
+
+      <div>
+        <h3 class="card-title title-sm">Gestão de Produto</h3>
+
+        <p class="body-sm">
+          NPI · 2025 - 2026<br>
+          Elaboração de histórias de usuário, levantamento de requisitos,
+          definição de regras de negócio e colaboração em processos ágeis
+          utilizando Scrum e Kanban, além de contribuir como desenvolvedora Front-end.
+        </p>
+      </div>
+
+    </div>
+  </li>
+
+  <li class="card-container">
+    <div class="card card-md" style="background-color: hsl(19, 97%, 85%)">
+
+      <div class="card-media">
+        <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+      </div>
+
+      <div>
+        <h3 class="card-title title-sm">UX Research</h3>
+
+        <p class="body-sm">
+          Planejamento e execução de entrevistas, benchmark,
+          testes de usabilidade e análise de dados para apoiar
+          decisões de design centradas no usuário.
+        </p>
+      </div>
+
+    </div>
+  </li>
+
+  <li class="card-container">
+    <div class="card card-md" style="background-color: hsl(221, 100%, 79%)">
+
+      <div class="card-media">
+        <ion-icon name="git-network-outline" aria-hidden="true"></ion-icon>
+      </div>
+
+      <div>
+        <h3 class="card-title title-sm">Prototipação</h3>
+
+        <p class="body-sm">
+          Criação de wireframes, fluxos de navegação e protótipos
+          de alta fidelidade para validação de soluções digitais
+          em diferentes contextos e dispositivos.
+        </p>
+      </div>
+
+    </div>
+  </li>
+
+  <li class="card-container">
+    <div class="card card-md" style="background-color: hsl(76, 39%, 72%)">
+
+      <div class="card-media">
+        <ion-icon name="code-slash-outline" aria-hidden="true"></ion-icon>
+      </div>
+
+      <div>
+        <h3 class="card-title title-sm">Desenvolvimento Front-end</h3>
+
+        <p class="body-sm">
+          Experiência com HTML, CSS, JavaScript, Vue.js e React,
+          colaborando na implementação de interfaces alinhadas
+          às especificações de UX e Design System.
+        </p>
+      </div>
+
+    </div>
+  </li>
+
+  <li class="card-container">
+    <div class="card card-md" style="background-color: hsl(245, 100%, 90%)">
+
+      <div class="card-media">
+        <ion-icon name="school-outline" aria-hidden="true"></ion-icon>
+      </div>
+
+      <div>
+        <h3 class="card-title title-sm">Pesquisa Acadêmica</h3>
+
+        <p class="body-sm">
+          Estudos em UX, IHC e Arquitetura da Informação,
+          incluindo Card Sorting, usabilidade e participação
+          em produções científicas da área.
+        </p>
+      </div>
+
+    </div>
+  </li>
+
+</ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+<div id="footer-container"></div>
+
+<script>
+fetch('./footer.html')
+  .then(res => res.text())
+  .then(html => {
+    document.getElementById('footer-container').innerHTML = html;
+  });
+</script>
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

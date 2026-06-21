@@ -1,0 +1,22 @@
+/*-----------------------------------*\
+  #slider.css
+\*-----------------------------------*/
+
+/**
+ * copyright 2022 codewithsadee
+ */
+
+
+
+
+
+.slider {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 40px;
+  align-items: center;
+  justify-items: center;
+
+  overflow: visible;
+}
+.slider-item { scroll-snap-align: start; }
