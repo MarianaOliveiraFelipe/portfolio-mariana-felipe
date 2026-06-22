@@ -89,7 +89,7 @@
 
 .client {
   background-color: var(--orange-red);
-  padding-block: 5px;
+  padding-block: 30px;
 
   border-top-left-radius: 80px;
   border-top-right-radius: 10px;
