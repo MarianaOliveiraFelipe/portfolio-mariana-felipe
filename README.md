@@ -4,7 +4,7 @@
 
   Portfólio pessoal responsivo, desenvolvido para apresentar meus projetos, habilidades e experiências como desenvolvedora.
 
-  <a href="https://SEU_LINK_DO_PORTFOLIO.com"><strong>➥ Ver</strong></a>
+  <a href="https://marianaoliveirafelipe.github.io/portfolio-mariana-felipe/"><strong>➥ Ver</strong></a>
 
 </div>
 
