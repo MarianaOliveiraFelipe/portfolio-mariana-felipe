@@ -43,6 +43,13 @@
 .portfolio-list,
 .portfolio-card { display: grid; }
 
+.portfolio-card .card-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-block-start: 12px;
+}
+
 .portfolio-list { gap: 50px; }
 
 .portfolio-card { gap: 25px; }
